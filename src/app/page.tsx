@@ -1,6 +1,7 @@
 import Herohomepage from '@/components/Herohomepage';
 import Features from '@/components/Features';
 import Cta from '@/components/Cta';
+import Contact from '@/components/Contact';
 
 export default function HomepagePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomepagePage() {
       <section id="section-2" className="scroll-mt-16">
         <Cta />
       </section>
+      <Contact />
     </main>
   );
 }
